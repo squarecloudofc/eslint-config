@@ -4,6 +4,9 @@ module.exports = {
     es2021: true,
     jest: true,
   },
+  globals: {
+    React: "readonly",
+  },
   extends: [
     "standard",
     "plugin:@typescript-eslint/recommended",

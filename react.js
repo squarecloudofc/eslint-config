@@ -4,6 +4,9 @@ module.exports = {
     es2021: true,
     jest: true,
   },
+  globals: {
+    React: "readonly",
+  },
   extends: [
     "plugin:react/recommended",
     "plugin:react-hooks/recommended",
