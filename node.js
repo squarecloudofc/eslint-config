@@ -21,7 +21,7 @@ module.exports = {
         "quoteProps": "as-needed",
         "arrowParens": "always",
         "bracketSpacing": true,
-        "semi": false,
+        "semi": true,
         "endOfLine": "auto",
       },
     ],
