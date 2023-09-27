@@ -23,11 +23,13 @@ module.exports = {
   ],
   rules: {
     "prettier/prettier": ["error", {
-      "printWidth": 80,
+      "printWidth": 120,
       "tabWidth": 2,
-      "singleQuote": true,
-      "trailingComma": "all",
+      "singleQuote": false,
+      "trailingComma": "es5",
+      "quoteProps": "as-needed",      
       "arrowParens": "always",
+      "bracketSpacing": true,
       "semi": false,
       "endOfLine": "auto",
     }],
