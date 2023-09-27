@@ -18,14 +18,14 @@ Install dependencies:
 npm install -D eslint @squarecloud/eslint-config
 ```
 
-Node.js project | Inside `.eslintrc.json`
+`.eslintrc.json` Node.JS project
 ```
 {
   "extends": "@squarecloud/eslint-config/node"
 }
 ```
 
-React (with Next.js) | Inside `.eslintrc.json`
+`.eslintrc.json` React (with Next.js)
 ```
 {
   "extends": [
@@ -35,7 +35,7 @@ React (with Next.js) | Inside `.eslintrc.json`
 }
 ```
 
-React (without Next.js) | Inside `.eslintrc.json`
+`.eslintrc.json` React (without Next.js)
 ```
 {
   "extends": "@squarecloud/eslint-config/react"
